@@ -1,15 +1,14 @@
 # Blinkit-Sales-Analytics-PowerBI
 End-to-end retail sales analytics dashboard built using Power BI
 
-📌 Project Overview
-This project presents an end-to-end retail sales analytics dashboard built using Power BI to analyze Blinkit’s outlet performance, product category trends, and revenue distribution.
+📌 Project Overview :
+---> This project presents an end-to-end retail sales analytics dashboard built using Power BI to analyze Blinkit’s outlet performance, product category trends, and revenue distribution.
 
-The goal was to transform raw transactional sales data into structured, interactive insights to support data-driven business decisions.
+---> The goal was to transform raw transactional sales data into structured, interactive insights to support data-driven business decisions.
 
 🎯 Business Problem
 
-Retail businesses require:
-1. Clear visibility into outlet performance
+Retail businesses require: 1. Clear visibility into outlet performance
 
 2. Category-level revenue insights
 
@@ -17,49 +16,43 @@ Retail businesses require:
 
 4. Faster decision-making using data
 
-This dashboard was developed to address these challenges through automated reporting and structured analytics.
+---> This dashboard was developed to address these challenges through automated reporting and structured analytics.
 
-📊 Key KPIs
+📊 Key KPIs : 1. Total Sales
 
-Total Sales
+2. Average Sales per Outlet
 
-Average Sales per Outlet
+3. Category-wise Revenue
 
-Category-wise Revenue
+4. Outlet Performance Comparison
 
-Outlet Performance Comparison
+5. Revenue Contribution %
 
-Revenue Contribution %
-
-Sales Distribution by Item Type
+6. Sales Distribution by Item Type
 
 🗂 Dataset Description
 
-The dataset includes:
+The dataset includes: 1. Outlet identifiers
 
-Outlet identifiers
+2. Product categories
 
-Product categories
+3. Sales figures
 
-Sales figures
+4. Item-level details
 
-Item-level details
-
-Data was cleaned and transformed using Power Query before modeling.
+---> Data was cleaned and transformed using Power Query before modeling.
 
 🔄 Data Preparation
 
-Data transformation steps included:
+Data transformation steps included: 1. Handling missing values
 
-Handling missing values
+2. Removing duplicates
 
-Removing duplicates
+3. Standardizing category labels
 
-Standardizing category labels
+4. Creating calculated columns for segmentation
 
-Creating calculated columns for segmentation
-
-All transformations were automated using Power Query to ensure reproducibility.
+----> All transformations were automated using Power Query to ensure reproducibility.
 
 🧠 Data Modeling Approach
 
@@ -73,33 +66,29 @@ Relationships were created to support efficient filtering and scalable reporting
 
 The modeling approach follows a simplified star schema design for optimal performance.
 
-📈 DAX Measures
+📈 DAX Measures : 1. Key DAX measures include:
 
-Key DAX measures include:
+2. Total Sales = SUM(Sales[Amount])
 
-Total Sales = SUM(Sales[Amount])
+3. Average Sales
 
-Average Sales
+4. Category Contribution %
 
-Category Contribution %
+5. Outlet Ranking
 
-Outlet Ranking
-
-These measures allow dynamic, filter-responsive analysis.
+---> These measures allow dynamic, filter-responsive analysis.
 
 💡 Insights Generated
 
-Identified top-performing outlets contributing majority revenue
+- Identified top-performing outlets contributing majority revenue
 
-Highlighted underperforming categories requiring strategic review
+- Highlighted underperforming categories requiring strategic review
 
-Analyzed revenue concentration patterns
+- Analyzed revenue concentration patterns
 
-Enabled comparative outlet performance tracking
+- Enabled comparative outlet performance tracking
 
-🛠 Tools Used
-
-Power BI
+🛠 Tools Used : Power BI
 
 Power Query
 
@@ -107,19 +96,12 @@ DAX
 
 Excel (initial formatting)
 
-📷 Dashboard Preview
-
-(Add your screenshots here in GitHub like this:)
-
-![Dashboard Overview](dashboard-overview.png)
 🚀 Project Outcome
 
-This project demonstrates:
+This project demonstrates: 1. End-to-end BI development capability
 
-End-to-end BI development capability
+2. Data modeling best practices
 
-Data modeling best practices
+3. Business-focused analytical thinking
 
-Business-focused analytical thinking
-
-Automated reporting workflow implementation
+4. Automated reporting workflow implementation
